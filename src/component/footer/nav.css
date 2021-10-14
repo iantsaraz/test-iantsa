@@ -1,0 +1,118 @@
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 10%;
+}
+.logo {
+	width: 118.65px;
+	height: 35.95px;
+}
+.nav_links a {
+	display: inline-block;
+	padding: 0px 20px;
+	text-decoration: none;
+}
+.nav_links a {
+	transition: all 0.3s ease 0s;
+	color: #000;
+	font-size: 18px;
+	font-weight: 500;
+}
+.nav_links a:hover {
+	color: #3e8afc;
+}
+.lets {
+	padding: 12px 25px;
+	border: none;
+	border-radius: 66px;
+	background: #3e8afc;
+	background: linear-gradient(rgba(62, 136, 252), rgba(102, 106, 246, 1) 100%);
+	cursor: pointer;
+	color: white;
+}
+
+#menu_bar {
+	font-size: 1.5rem;
+	cursor: pointer;
+	display: none;
+}
+
+@media (max-width: 994px) {
+	header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 20px 5%;
+	}
+	.nav_links a {
+		display: inline-block;
+		padding: 0px 10px;
+		font-size: 15px;
+	}
+}
+@media (max-width: 790px) {
+	header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.nav_links a {
+		display: inline-block;
+		padding: 0px 10px;
+		font-size: 15px;
+	}
+	.lets {
+		padding: 10px 20px;
+		border: none;
+		border-radius: 66px;
+		background: #3e8afc;
+		background: linear-gradient(
+			rgba(62, 136, 252),
+			rgba(102, 106, 246, 1) 100%
+		);
+		cursor: pointer;
+		color: white;
+	}
+}
+@media (max-width: 690px) {
+	header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 20px 0%;
+	}
+	.logo {
+		margin-left: 25px;
+	}
+	#menu_bar {
+		display: initial;
+		margin-right: 30px;
+	}
+	.lets {
+		display: none;
+	}
+	header .nav_links {
+		z-index: 5;
+		width: 100%;
+		position: absolute;
+		top: 20%;
+		background: #fcfcfc;
+		border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
+		text-align: start;
+		clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+	}
+
+	header .nav_links.active {
+		clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+	}
+	header .nav_links a {
+		font-size: 90%;
+		margin: 1.5rem;
+		padding: 1rem;
+		display: block;
+		border: 0.1rem solid rgba(0, 0, 0, 0.1);
+		border-left: 0.4rem solid rgba(62, 136, 252);
+		background: #ffff;
+	}
+}

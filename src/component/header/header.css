@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
+
+.stay {
+	font-family: "Rubik", sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+	text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.61);
+	width: 100%;
+}
+.head {
+	margin-left: 130px;
+	display: flex;
+	align-items: center;
+}
+.index {
+	z-index: 1;
+	width: 40rem;
+}
+.image {
+	width: 100%;
+}
+span {
+	text-decoration: underline;
+	color: #3e8afc;
+	font-family: "Rubik";
+	font-weight: 400;
+	font-size: 52px;
+}
+.of {
+	position: relative;
+	z-index: 1;
+	font-family: "Rubik", sans-serif;
+	font-weight: 600;
+	font-size: 52px;
+}
+p {
+	font-size: 19px;
+}
+.get {
+	padding: 12px 25px;
+	border: none;
+	border-radius: 66px;
+	background: #3e8afc;
+	background: linear-gradient(rgba(62, 136, 252), rgba(102, 106, 246, 1) 100%);
+	cursor: pointer;
+	color: white;
+	margin-right: 50px;
+}
+.view {
+	padding: 12px 25px;
+	border: 0.1rem solid #3e8afc;
+	border-radius: 66px;
+	background: white;
+	color: #3e8afc;
+	cursor: pointer;
+}
+@media (max-width: 1286px) {
+	.of {
+		/* position: absolute; */
+
+		font-size: 42px;
+	}
+	span {
+		font-size: 42px;
+	}
+	p {
+		font-size: 15px;
+	}
+}
+@media (max-width: 1150px) {
+	.of {
+		/* position: absolute; */
+
+		font-size: 42px;
+	}
+	span {
+		font-size: 42px;
+	}
+	p {
+		font-size: 15px;
+	}
+}
+@media (max-width: 1023px) {
+	.of {
+		/* position: absolute; */
+
+		font-size: 42px;
+	}
+	span {
+		font-size: 42px;
+	}
+	p {
+		font-size: 15px;
+	}
+
+	.head {
+		margin-left: 110px;
+	}
+	.button {
+		width: 100%;
+	}
+}
+@media (max-width: 1023px) {
+	.head {
+		margin-left: 50px;
+	}
+}
+@media (max-width: 690px) {
+	.head {
+		margin-left: 30px;
+		margin-top: 100px;
+	}
+	.of {
+		/* position: absolute; */
+
+		font-size: 42px;
+		width: 100% !important;
+	}
+	p {
+		width: 90% !important;
+	}
+	.image {
+		display: none;
+	}
+	.index {
+		z-index: 1;
+		width: 100%;
+	}
+}
+@media (max-width: 660px) {
+	.head {
+		margin-left: 30px;
+		margin-top: 100px;
+	}
+	.of {
+		/* position: absolute; */
+
+		font-size: 30px;
+		width: 90% !important;
+	}
+	p {
+		font-size: 12px;
+		width: 90% !important;
+	}
+	.image {
+		display: none;
+	}
+	.index {
+		z-index: 1;
+		width: 100%;
+	}
+	.stay {
+		font-size: 15px;
+	}
+	span {
+		font-size: 30px;
+	}
+}

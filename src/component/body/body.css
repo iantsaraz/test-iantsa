@@ -1,0 +1,430 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;800&display=swap");
+* {
+	overflow-x: hidden !important;
+}
+.skill {
+	font-family: "Rubik", sans-serif;
+	font-weight: 500;
+	font-size: 40px;
+}
+.skill .dep {
+	color: #3e8afc;
+	text-decoration: none;
+	font-size: 40px;
+	font-weight: 500;
+}
+.lorem {
+	width: 50%;
+	display: flex;
+}
+.headhead {
+	overflow-y: hidden;
+
+	height: 44rem;
+}
+/* .text-head{} */
+.card {
+	border: none !important;
+	border-radius: 15px !important;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.cards {
+	display: flex !important;
+	flex-direction: row !important;
+	justify-content: center !important;
+	width: 100% !important;
+	flex-wrap: nowrap !important;
+}
+
+.card-text {
+	font-size: 13px;
+}
+.about {
+	overflow: hidden;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.name {
+	overflow: hidden;
+	font-size: 32px;
+}
+.name1 {
+	overflow: hidden;
+	font-size: 15px;
+	color: #0bccc5;
+	font-weight: 600;
+}
+.rating {
+	overflow: hidden;
+	font-size: 15px;
+
+	font-weight: 600;
+}
+.p2 {
+	overflow: hidden;
+	font-size: 12px;
+	width: 88%;
+	font-weight: 400;
+}
+.actually {
+	overflow: hidden;
+	font-size: 32px;
+	font-weight: 800;
+}
+.patient {
+	overflow: hidden;
+	font-size: 32px;
+	font-weight: 800;
+	color: #3e8afc;
+	text-decoration: underline;
+}
+.text {
+	overflow: hidden;
+	font-size: 15px;
+	font-weight: 500;
+	color: black;
+	text-decoration: underline;
+}
+.img2 {
+	width: 60%;
+	position: relative;
+	bottom: 100px;
+	background-color: white;
+	border-radius: 20px;
+}
+.img3 {
+	width: 70%;
+	position: relative;
+	bottom: 100px;
+	left: 70px;
+	background-color: white;
+	border-radius: 20px;
+}
+.bloc {
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+	margin-right: 0px;
+	width: 60%;
+}
+.bloc2 {
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+	margin-right: 20px;
+	width: 45%;
+}
+.CircularProgressbar-path {
+	stroke: red;
+}
+
+.CircularProgressbar-text {
+	fill: yellow;
+}
+.CircularProgressbar-background {
+	fill: green;
+}
+.cont {
+	display: flex;
+}
+.cont-vid {
+	display: flex;
+}
+.conte {
+	display: flex;
+}
+.desc {
+	width: 40%;
+}
+.piece {
+	overflow: hidden;
+}
+.desc2 {
+	width: 55%;
+	margin-left: 60px;
+}
+.form {
+	font-size: 14px;
+	display: flex;
+}
+.formulaire {
+	display: flex;
+	justify-content: space-around;
+}
+.val {
+	font-size: 20px !important;
+}
+.profile {
+	display: flex;
+	justify-content: center;
+	margin-left: 40px;
+}
+.quote {
+	font-size: 18px;
+	font-weight: 400;
+}
+.quote3 {
+	font-size: 15px;
+	font-weight: 500;
+}
+.quote2 {
+	font-size: 20px;
+	font-weight: 800;
+}
+.form-quote {
+	display: flex;
+	align-items: center;
+
+	height: 350px;
+}
+.co {
+	width: 40%;
+}
+.vid {
+	width: 100%;
+}
+.descp {
+	width: 43%;
+	padding-left: 50px;
+}
+.sary {
+	width: 40% !important;
+}
+.soratra {
+	width: 60% !important;
+}
+@media (max-width: 952px) {
+	.headhead {
+		height: 43rem;
+	}
+	.cards {
+		display: inline-flex;
+		width: 100%;
+		overflow-x: auto !important;
+		flex-direction: row;
+		margin-left: 20px !important;
+		justify-content: flex-start !important;
+	}
+}
+@media (max-width: 836px) {
+	.headhead {
+		height: 43rem;
+	}
+}
+@media (max-width: 690px) {
+	.cards {
+		display: inline-flex;
+		width: 100%;
+		overflow-x: auto !important;
+		flex-direction: row;
+		margin-left: 20px !important;
+		justify-content: flex-start !important;
+	}
+	.headhead {
+		height: 28.5rem;
+	}
+}
+@media (max-width: 660px) {
+	.headhead {
+		height: 26rem;
+	}
+}
+@media (max-width: 451px) {
+	.skill {
+		margin-left: 20px;
+		font-size: 40px;
+		margin-top: 0rem;
+	}
+	.headhead {
+		height: 28rem;
+	}
+}
+@media (max-width: 416px) {
+	.headhead {
+		height: 29rem;
+	}
+	.skill {
+		margin-left: 20px;
+		font-size: 40px;
+	}
+}
+@media (max-width: 387px) {
+	.headhead {
+		height: 33rem;
+	}
+	.skill {
+		margin-left: 20px;
+		font-size: 40px;
+	}
+	.img2 {
+		display: flex !important;
+		flex-wrap: wrap !important;
+		flex-direction: column !important;
+		align-content: space-around !important;
+	}
+	.descri {
+		width: 100% !important;
+	}
+	.rate {
+		width: 100% !important;
+	}
+}
+@media (max-width: 1071px) {
+	.about {
+		margin-top: 20px;
+	}
+}
+@media (max-width: 1049px) {
+	.cont {
+		display: flex;
+		flex-direction: column;
+		align-content: space-around;
+		flex-wrap: wrap;
+	}
+	.desc {
+		width: 80%;
+	}
+	.bloc {
+		width: 80%;
+	}
+}
+@media (max-width: 634px) {
+	.drr {
+		display: none;
+	}
+	.img2 {
+		position: relative;
+		bottom: -10px;
+		background-color: white;
+		border-radius: 20px;
+		width: 80%;
+		margin-bottom: 50px;
+	}
+}
+@media (max-width: 470px) {
+	.drr {
+		display: none;
+	}
+	.img2 {
+		position: relative;
+		bottom: -10px;
+		background-color: white;
+		border-radius: 20px;
+		width: 100%;
+		margin-bottom: 50px;
+		margin-right: 0;
+		margin-left: 0;
+	}
+}
+@media (max-width: 1149px) {
+	.img3 {
+		width: 70%;
+		position: relative;
+		bottom: 100px;
+		left: 0px;
+		background-color: white;
+		border-radius: 20px;
+	}
+}
+@media (max-width: 1000px) {
+	.val {
+		font-size: 12px !important;
+	}
+}
+@media (max-width: 800px) {
+	.conte {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+	}
+}
+@media (max-width: 794px) {
+	.desc2 {
+		width: 100%;
+	}
+	.bloc2 {
+		width: 100%;
+		margin-left: -40px;
+		margin-right: 0;
+	}
+}
+@media (max-width: 700px) {
+	.bloc2 {
+		width: 100%;
+		margin-left: 40px;
+		margin-right: 40px;
+	}
+}
+@media (max-width: 1128px) {
+	.profile {
+		display: none;
+	}
+
+	.quote-cont {
+		width: 80% !important;
+	}
+	.form-quote {
+		justify-content: center;
+		height: 300px;
+	}
+}
+.covidname {
+	font-size: 15px;
+}
+@media (max-width: 1208px) {
+	.cont-vid {
+		margin-left: 50px;
+		display: block;
+	}
+	.co {
+		width: 90% !important;
+	}
+	.descp {
+		margin-top: 50px;
+		padding: 0;
+		width: 80% !important;
+	}
+	.sary {
+		width: 200px !important;
+	}
+}
+@media (max-width: 800px) {
+	.cont-vid {
+		margin-left: 50px;
+		display: block;
+	}
+	.co {
+		width: 90% !important;
+	}
+	.descp {
+		width: 100% !important;
+	}
+	.sary {
+		width: 200px !important;
+	}
+}
+@media (max-width: 640px) {
+	.cont-vid {
+		margin-left: 50px;
+		display: block;
+	}
+	.co {
+		width: 90% !important;
+	}
+	.descp {
+		padding: 0 !important;
+		width: 100% !important;
+	}
+	.sary {
+		width: 200px !important;
+	}
+	.soratra {
+		width: 40% !important;
+	}
+}
+@media (max-width: 750px) {
+	.foot {
+		display: none !important;
+	}
+}
